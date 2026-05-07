@@ -1,0 +1,17 @@
+@startuml atividades
+start
+:Usuário acessa o Menu Principal;
+:Seleciona "Criar Sessão";
+:Sistema solicita dados (ID Cinema, ID Filme, Sala, Data/Hora);
+:Usuário insere as informações;
+
+if (Cinema e Filme existem no banco?) then (Sim)
+  :Verifica regras de negócio e validações;
+  :Repository persiste a Sessão no SQLite;
+  :Sistema exibe "Sessão criada com sucesso!";
+else (Não)
+  :Sistema exibe erro "Cinema ou Filme não encontrado";
+endif
+
+stop
+@enduml

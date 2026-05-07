@@ -1,0 +1,20 @@
+@startuml sequencia
+actor Usuário
+boundary "CLI_View" as View
+control "FilmeController" as Controller
+entity "FilmeService" as Service
+database "FilmeRepository" as Repository
+database "SQLite" as DB
+
+Usuário -> View : Escolhe "Cadastrar Filme" e digita os dados
+View -> Controller : cadastrar(titulo, duracao, genero, ...)
+Controller -> Service : cadastrar(titulo, duracao, genero, ...)
+Service -> Service : Valida Regras de Negócio (ex: duração > 0)
+Service -> Repository : salvar(novo_filme)
+Repository -> DB : INSERT INTO filmes (...)
+DB --> Repository : Confirmação (ID gerado)
+Repository --> Service : Retorna Entidade Filme
+Service --> Controller : Sucesso
+Controller --> View : Dicionário {sucesso: True, dados: Filme}
+View --> Usuário : Exibe mensagem de sucesso na tela
+@enduml

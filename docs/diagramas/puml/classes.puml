@@ -1,0 +1,34 @@
+@startuml classes
+!define ENTITY class
+
+ENTITY Cinema {
+  nome: String
+  cidade: String
+  estado: String
+  endereco: String
+  capacidade: Integer
+}
+
+ENTITY Filme {
+  titulo: String
+  duracao_min: Integer
+  genero: String
+  diretor: String
+  elenco: String
+}
+
+ENTITY Sessao {
+  data_hora: DateTime
+  sala: String
+  intervalo_min: Integer
+}
+
+ENTITY RegistroPublico {
+  data: Date
+  quantidade_publico: Integer
+}
+
+Cinema "1" -- "0..*" Sessao : possui >
+Filme "1" -- "0..*" Sessao : exibido em >
+Sessao "1" -- "0..*" RegistroPublico : registra >
+@enduml
