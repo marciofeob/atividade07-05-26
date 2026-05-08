@@ -29,9 +29,17 @@ Este documento descreve os requisitos, regras de negócio e a arquitetura do sis
 * **RN05:** (Recomendação) A quantidade de público registrada não deve ultrapassar a capacidade máxima do cinema onde a sessão ocorre.
 
 ## 4. Diagramas do Sistema
-Os diagramas do projeto foram modelados em PlantUML e encontram-se na pasta `docs/diagramas`. Para visualizá-los e exportá-los em `.png`, utilize a extensão "PlantUML" no seu editor de código.
+Os diagramas do projeto foram modelados em PlantUML do JÉBÃO Jeebs e encontram-se na pasta `docs/diagramas`.
 
 1. **Casos de Uso:** `casos_de_uso.puml`
+<img width="467" height="474" alt="casosdeuso" src="https://github.com/user-attachments/assets/9dd162d5-6adc-411d-92c7-4b958f379fdc" />
+
 2. **Classes de Domínio:** `classes.puml`
+<img width="331" height="489" alt="classes" src="https://github.com/user-attachments/assets/899b2f51-8ffe-46f8-8499-08d0ea052d3c" />
+
 3. **Atividades:** `atividades.puml`
+<img width="629" height="531" alt="atividades" src="https://github.com/user-attachments/assets/43750256-42f9-44a1-8bc4-fb99caf8bce6" />
+
 4. **Sequência:** `sequencia.puml`
+<img width="1271" height="530" alt="sequencia" src="https://github.com/user-attachments/assets/a5867986-1630-4b14-af6c-6b8ff24de871" />
+
