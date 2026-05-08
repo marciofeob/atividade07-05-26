@@ -29,14 +29,9 @@ Este documento descreve os requisitos, regras de negócio e a arquitetura do sis
 * **RN05:** (Recomendação) A quantidade de público registrada não deve ultrapassar a capacidade máxima do cinema onde a sessão ocorre.
 
 ## 4. Diagramas do Sistema
-Os diagramas do projeto foram modelados em PlantUML do Jébão oficial e encontram-se na pasta `docs/diagramas`.
+Os diagramas do projeto foram modelados em PlantUML e encontram-se na pasta `docs/diagramas`. Para visualizá-los e exportá-los em `.png`, utilize a extensão "PlantUML" no seu editor de código.
 
-1. **Casos de Uso:** `casos_de_uso.puml`.
-<img width="467" height="474" alt="casosdeuso" src="https://github.com/user-attachments/assets/5c4d6b38-2501-4f5c-a129-8af100177f88" />
-2. **Classes de Domínio:** `classes.puml`.
-<img width="331" height="489" alt="classes" src="https://github.com/user-attachments/assets/47e52bf9-094c-40c5-86bf-1041ff082331" />
-3. **Atividades:** `atividades.puml`.
-<img width="629" height="531" alt="atividades" src="https://github.com/user-attachments/assets/b761e4ad-b721-4251-a7e4-51f2fce12e3e" />
-4. **Sequência:** `sequencia.puml`.
-<img width="1271" height="530" alt="sequencia" src="https://github.com/user-attachments/assets/1f33fbba-b663-4c68-bb86-b1b237d68d84" />
-
+1. **Casos de Uso:** `casos_de_uso.puml`
+2. **Classes de Domínio:** `classes.puml`
+3. **Atividades:** `atividades.puml`
+4. **Sequência:** `sequencia.puml`
