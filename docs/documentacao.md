@@ -38,4 +38,5 @@ Os diagramas do projeto foram modelados em PlantUML do Jébão oficial e encontr
 3. **Atividades:** `atividades.puml`.
 <img width="629" height="531" alt="atividades" src="https://github.com/user-attachments/assets/b761e4ad-b721-4251-a7e4-51f2fce12e3e" />
 4. **Sequência:** `sequencia.puml`.
-<img width="1271" height="530" alt="sequencia" src="https://github.com/user-attachments/assets/e19e7ed8-7502-46ba-a549-a232c361b939" />
+<img width="1271" height="530" alt="sequencia" src="https://github.com/user-attachments/assets/1f33fbba-b663-4c68-bb86-b1b237d68d84" />
+
